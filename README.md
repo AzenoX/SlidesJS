@@ -1,4 +1,4 @@
-# SlidesJS [![npm version](https://badge.fury.io/js/%40azenox%2Fslidesjs.svg)](https://badge.fury.io/js/%40azenox%2Fslidesjs)
+# SlidesJS [![npm version](https://badge.fury.io/js/%40azenox%2Fslidesjs.svg?id=js&type=6&v=1.0.1&x2=0)](https://badge.fury.io/js/%40azenox%2Fslidesjs)
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](http://azenox.fr/)
 
@@ -499,7 +499,7 @@ window.addEventListener('load', () => {
 
 
 ## Versions
-**Latest version :** [![npm version](https://badge.fury.io/js/%40azenox%2Fslidesjs.svg)](https://badge.fury.io/js/%40azenox%2Fslidesjs)
+**Latest version :** [![npm version](https://badge.fury.io/js/%40azenox%2Fslidesjs.svg?id=js&type=6&v=1.0.1&x2=0)](https://badge.fury.io/js/%40azenox%2Fslidesjs)
 
 <br/>
 <br/>
