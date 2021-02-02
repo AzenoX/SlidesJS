@@ -14,6 +14,9 @@ Get it via NPM
 ```bash
 npm install @azenox/slidesjs
 ```
+```js
+import SlidesJS from "@azenox/slidesjs/SlidesJS.module.js";
+```
 
 Or just download the file and import it
 ```html
