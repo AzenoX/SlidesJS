@@ -1,0 +1,11 @@
+{
+  "name": "@azenox/slidesjs",
+  "version": "1.0.0",
+  "description": "Improved Slides functions from JQuery to pure Javascript",
+  "main": "SlidesJS.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "azenox",
+  "license": "ISC"
+}

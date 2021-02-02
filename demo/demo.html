@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        #div{
+            background: orange;
+            padding: 2em;
+            margin: 2em;
+
+            width: 30vw;
+        }
+    </style>
+</head>
+<body>
+    <button id="triggerX">Trigger X</button>
+    <button id="triggerY">Trigger Y</button>
+    <div id="div">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+</body>
+
+
+<script src="../SlidesJS.js"></script>
+<script>
+    const div = document.querySelector('#div');
+    const btn_x = document.querySelector('#triggerX');
+    const btn_y = document.querySelector('#triggerY');
+
+
+
+    /*=================================
+
+          Class Method
+
+    ==================================*/
+    let slides = new SlidesJS(div);
+    btn_x.addEventListener('click', () => {
+        slides.slideToggleX(100, 'left');
+    });
+    btn_y.addEventListener('click', () => {
+        slides.slideToggleY(2500, 'top');
+    });
+
+</script>
+
+
+</html>
