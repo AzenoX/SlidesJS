@@ -6,8 +6,6 @@ Improved Slides functions from JQuery to pure Javascript
 
 ## Getting Started
 
-Demo: [https://dev.alexishayat.me/SlidesJS/demo/demo.html](https://dev.alexishayat.me/SlidesJS/demo/demo.html)
-
 ### Install
 
 Get it via NPM
